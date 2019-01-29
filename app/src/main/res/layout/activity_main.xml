@@ -15,15 +15,45 @@
     <EditText
         android:id="@+id/defenitionEnglish"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/wordRussian"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/defenitionRussian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/wordChina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/defenitionChina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/wordJapan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/defenition_Japan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
     <Button
         android:id="@+id/Serach"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:text="Search"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:onClick="Search"/>
 
 
